@@ -36,8 +36,8 @@ body {
 .slides {
     display: flex;
     width: 100%;
-    animation: slide 25s infinite;
-    transition: transform 0.1s ease-in-out;
+    animation: slide 30s infinite;
+    transition: transform 2.0s ease-in-out;
 }
 .slides img {
     width: 100%;
