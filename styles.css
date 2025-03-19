@@ -44,10 +44,9 @@ body {
 }
 @keyframes slide {
     0% { transform: translateX(0%); }     /* First Image */
-    25% { transform: translateX(-100%); } /* Second Image */
-    50% { transform: translateX(-200%); } /* Third Image */
-    75% { transform: translateX(-300%); } /* Fourth Image */
-    100% { transform: translateX(0%); }   /* Back to First Image */
+    33% { transform: translateX(-100%); } /* Second Image */
+    66% { transform: translateX(-200%); } /* Third Image */
+    100% { transform: translateX(0%); } /* Fourth Image */
 }
 /* Sticky Table of Contents */
 .toc {
