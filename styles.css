@@ -36,20 +36,21 @@ body {
 .slides {
     display: flex;
     width: 100%;
-    animation: slide 30s infinite;
+    animation: slide 40s infinite;
     transition: transform 2.0s ease-in-out;
 }
 .slides img {
     width: 100%;
-    height: 500px;
+    height: 500px; 
     object-fit: cover; 
 }
 @keyframes slide {
-    0% { transform: translateX(0%); }     /* First Image */
-    33% { transform: translateX(-100%); } /* Second Image */
-    66% { transform: translateX(-200%); } /* Third Image */
-    100% { transform: translateX(0%); } /* Fourth Image */
+    0%   { transform: translateX(0%); }
+    50%   { transform: translateX(-140%); }
+    100% { transform: translateX(0%); }
 }
+
+
 /* Sticky Table of Contents */
 .toc {
     position: sticky;
