@@ -41,6 +41,8 @@ body {
 }
 .slides img {
     width: 100%;
+    height: 500px;
+    object-fit: cover; 
 }
 @keyframes slide {
     0% { transform: translateX(0%); }     /* First Image */
